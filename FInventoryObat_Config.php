@@ -1,0 +1,21 @@
+<?php
+$FInventoryObat_config=[
+	'name'=>'',
+	'dataLabel'=>[
+		'f_inventory_fi_id'=>['name'=>'','index'=>'1','ActiveForm'=>'|6','DetailView'=>'|6','display'=>'1'],
+		'f_drug_generic_fdg_id'=>['name'=>'','index'=>'1','ActiveForm'=>'6|','DetailView'=>'6|','display'=>'1'],
+		'fio_conversion_factor'=>['name'=>'','index'=>'1','ActiveForm'=>'','DetailView'=>'','display'=>'1'],
+		'fio_is_additive'=>['name'=>'adadap','index'=>'1','ActiveForm'=>'','DetailView'=>'','display'=>'1'],
+		'fio_is_combination_drug'=>['name'=>'','index'=>'1','ActiveForm'=>'','DetailView'=>'','display'=>'1'],
+		'fio_is_mixture_drug'=>['name'=>'','index'=>'1','ActiveForm'=>'','DetailView'=>'','display'=>'1'],
+		'fio_drug_id_'=>['name'=>'','index'=>'1','ActiveForm'=>'','DetailView'=>'','display'=>'1'],
+		'fio_id'=>['name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0'],
+		'first_user'=>['name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0'],
+		'first_ip'=>['name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0'],
+		'first_update'=>['name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0'],
+		'last_user'=>['name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0'],
+		'last_ip'=>['name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0'],
+		'last_update'=>['name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0'],
+	],
+]; 
+?>

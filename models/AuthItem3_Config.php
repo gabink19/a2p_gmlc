@@ -1,0 +1,33 @@
+<?php
+if(!function_exists('AuthItem3_config')){
+function AuthItem3_config(){ return [
+	'name'=>'Auth Item',
+	'js'=>'',
+	'css'=>'',
+	'master_id'=>'',
+	'filter'=>'1#type',
+	'filter_ex'=>'',
+	'client_id'=>'',
+	'mode1'=>'',
+	'dataLabel'=>[
+		'menu1'=>['js'=>"",'name'=>'','index'=>'1','ActiveForm'=>'','DetailView'=>'','display'=>'1','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'menu2'=>['js'=>"",'name'=>'','index'=>'1','ActiveForm'=>'','DetailView'=>'','display'=>'1','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'name'=>['js'=>"",'name'=>'','index'=>'1','ActiveForm'=>'','DetailView'=>'','display'=>'1','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'description'=>['js'=>"",'name'=>'','index'=>'1','ActiveForm'=>'','DetailView'=>'','display'=>'1','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'type'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'rule_name'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'data'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'menu3'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'menu_label'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'menu_url'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'first_user'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'first_ip'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'first_update'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'last_user'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'last_ip'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'last_update'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+	],
+];
+};
+}; 
+?>

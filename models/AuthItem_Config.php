@@ -1,0 +1,75 @@
+<?php
+if(!function_exists('AuthItem_config')){
+function AuthItem_config(){ return [
+	'name'=>'Menu Configuration',
+	'js'=>'',
+	'css'=>'',
+	'master_id'=>'',
+	'master_id_ref'=>'',
+	'filter'=>'3#type',
+	'filter_ex'=>'',
+	'client_id'=>'',
+	'option_flag'=>'',
+	'parameter'=>'',
+	'mode1'=>'',
+	'ActionForm_count'=>'1',
+	'DetailView_count'=>'1',
+	'Index_count'=>'1',
+	'dataLabel'=>[
+		'type'=>['disable'=>'','js'=>"",'name'=>'','index'=>'0','display'=>'0','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"ref",'field_type_ext_data'=>"xx_auth_item_type_ref"],
+		'menu1'=>['disable'=>'','js'=>"",'name'=>'','index'=>'1','display'=>'1','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'menu2'=>['disable'=>'','js'=>"",'name'=>'','index'=>'1','display'=>'1','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'menu3'=>['disable'=>'','js'=>"",'name'=>'','index'=>'0','display'=>'0','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'menu_label'=>['disable'=>'','js'=>"",'name'=>'Title','index'=>'1','display'=>'1','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'name'=>['disable'=>'','js'=>"",'name'=>'','index'=>'1','display'=>'1','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'description'=>['disable'=>'','js'=>"",'name'=>'','index'=>'0','display'=>'0','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'rule_name'=>['disable'=>'','js'=>"",'name'=>'','index'=>'0','display'=>'0','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'data'=>['disable'=>'','js'=>"",'name'=>'','index'=>'0','display'=>'0','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'menu_url'=>['disable'=>'','js'=>"",'name'=>'','index'=>'0','display'=>'1','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'first_user'=>['disable'=>'','js'=>"",'name'=>'','index'=>'0','display'=>'0','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'first_ip'=>['disable'=>'','js'=>"",'name'=>'','index'=>'0','display'=>'0','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'first_update'=>['disable'=>'','js'=>"",'name'=>'','index'=>'0','display'=>'0','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'last_user'=>['disable'=>'','js'=>"",'name'=>'','index'=>'0','display'=>'0','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'last_ip'=>['disable'=>'','js'=>"",'name'=>'','index'=>'0','display'=>'0','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+		'last_update'=>['disable'=>'','js'=>"",'name'=>'','index'=>'0','display'=>'0','DetailView'=>'','DetailView_1'=>'','DetailView_2'=>'','ActiveForm'=>'','ActiveForm_1'=>'','ActiveForm_2'=>'','DetailView_display'=>'','ActiveForm_display'=>'','Index_display'=>'','value'=>'','filter'=>"",'filter_index'=>"",'field_type'=>"",'field_type_ext_data'=>""],
+	],
+	'index'=>[
+		'script_1'=>"",
+		'script_2'=>"",
+		'button'=>"",
+		'button2'=>"",
+		'button3'=>"",
+	],
+	'view'=>[
+		'script_1'=>"",
+		'script_2'=>"",
+		'button'=>"",
+	],
+	'index_2'=>[
+		'script_1'=>"",
+		'script_2'=>"",
+		'button'=>"",
+		'button2'=>"",
+		'button3'=>"",
+	],
+	'view_2'=>[
+		'script_1'=>"",
+		'script_2'=>"",
+		'button'=>"",
+	],
+	'index_3'=>[
+		'script_1'=>"",
+		'script_2'=>"",
+		'button'=>"",
+		'button2'=>"",
+		'button3'=>"",
+	],
+	'view_3'=>[
+		'script_1'=>"",
+		'script_2'=>"",
+		'button'=>"",
+	],
+];
+};
+}; 
+?>

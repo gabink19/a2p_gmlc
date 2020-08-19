@@ -1,0 +1,23 @@
+<?php
+if(!function_exists('AuthRule_config')){
+function AuthRule_config(){ return [
+	'name'=>'',
+	'js'=>'',
+	'css'=>'',
+	'master_id'=>'',
+	'client_id'=>'',
+	'mode1'=>'',
+	'dataLabel'=>[
+		'name'=>['js'=>"",'name'=>'','index'=>'1','ActiveForm'=>'','DetailView'=>'','display'=>'1','value'=>'','filter'=>"",'field_type'=>""],
+		'data'=>['js'=>"",'name'=>'','index'=>'1','ActiveForm'=>'','DetailView'=>'','display'=>'1','value'=>'','filter'=>"",'field_type'=>""],
+		'first_user'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>""],
+		'first_ip'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>""],
+		'first_update'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>""],
+		'last_user'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>""],
+		'last_ip'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>""],
+		'last_update'=>['js'=>"",'name'=>'','index'=>'0','ActiveForm'=>'','DetailView'=>'','display'=>'0','value'=>'','filter'=>"",'field_type'=>""],
+	],
+];
+};
+}; 
+?>
